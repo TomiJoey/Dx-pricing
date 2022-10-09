@@ -1,0 +1,35 @@
+@media screen and (max-width:800px) {
+
+    header{
+        text-align: center;
+    }
+
+    header h2{
+        width: 40%;
+    }
+
+    .body{
+        width: 80%;
+        padding: 10px;
+        border: none;
+        
+        /* text-align: center; */
+    }
+
+    
+
+    .btn{
+
+        margin: 0 0 20px 0;
+    }
+
+    body .price{
+        height: 17vh;
+
+        }
+
+
+
+
+
+}

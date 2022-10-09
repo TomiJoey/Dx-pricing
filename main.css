@@ -1,0 +1,105 @@
+/* ==== Page reset begins here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==== Page reset ends here */
+
+body {
+    font-family: 'Inter', sans-serif;
+
+}
+
+/* ==== Header starts here */
+header{
+    /* border: 3px solid red; */
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   flex-direction: column;
+  margin: 30px 0 30px 0;
+}
+
+header h2{
+    margin: 30px 0 20px 0;
+}
+
+.button-section{
+   background: #d9d9d9;
+   border-radius: 10px;
+    display: flex;  
+    padding: 3px 4px;
+}
+
+.button-section .first-btn{
+background: white;
+border: none;
+border-radius: 10px;
+padding: 10px 25px;
+font-weight: bold;
+}
+.button-section .second-btn{
+background: none;
+border: none;
+border-radius: 10px;
+padding: 10px 25px;
+font-weight: bold;
+}
+
+
+/* ==== Header ends here */
+
+
+/* ==== Main body starts here */
+section{
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+
+.body {
+padding: 20px 0 20px 20px;
+border-right: 2px solid black;
+width: 25%;
+
+}
+.remove{
+    border-right:none;
+}
+.body p{
+    margin: 10px 0;
+
+} 
+.body h1{
+    font-size: 30px;
+}
+.body span{
+font-size: 12px;
+}
+.body .price{
+    height: 17vh;
+}
+.btn {
+    background: black;
+    color: white;
+    padding: 10px 20px 10px 25px;
+    margin: 0 0 30px 0;
+}
+.body h3{
+    height: 3.5vh;
+}
+
+.fa{
+    margin: 7px;
+    
+}
+/* ==== Main body ends here */
